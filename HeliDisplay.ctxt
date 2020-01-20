@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=HeliDisplay
+comment0.text=\r\n\ This\ is\ a\ circular\ health\ bar\ created\ to\ display\ an\ integer\ value\r\n\ \r\n\ @author\ Kevin\ Y,\ modified\ by\ Michael\r\n\ @version\ January\ 19th\ 2019\r\n
+comment1.params=
+comment1.target=HeliDisplay()
+comment1.text=\r\n\ creates\ a\ circular\ value\ display\ to\ show\ the\ helicopter's\ shooting\ delay\r\n
+comment2.params=adjustment
+comment2.target=void\ adjustHealth(int)
+comment2.text=\r\n\ adjust\ the\ value\ in\ the\ display\ and\ updates\ dispaly\r\n\ \r\n\ @param\ adjustment\ The\ new\ value\ to\ be\ displayed\r\n
+comment3.params=
+comment3.target=int\ getHealth()
+comment3.text=\r\n\ returns\ the\ current\ value\ of\ the\ display\r\n\ \r\n\ @return\ the\ value\ being\ displayed\r\n
+comment4.params=
+comment4.target=void\ updateImage()
+comment4.text=\r\n\ updates\ the\ image\ which\ displays\ the\ value\ of\ the\ bar\r\n\ taken\ from\ danpost\ and\ modified\ by\ Kevin\ Y\r\n
+numComments=5

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=GameMenu
+comment0.text=\r\n\ The\ game\ menu\ is\ used\ to\ display\ the\ pause\ menu,\ win\ menu,\ and\ lose\ menu\ during\ the\ game.\r\n\ Contains\ many\ buttons\ such\ as\ mute,\ play,\ retry,\ go\ to\ menu,\ etc.\r\n\ \r\n\ @author\ Kevin\ Biro\r\n\ @version\ January\ 16th\ 2019\r\n
+comment1.params=gameOver\ muted\ round\ maxRound\ numEnemies
+comment1.target=GameMenu(boolean,\ boolean,\ int,\ int,\ int)
+comment1.text=\r\n\ Constructs\ a\ game\ menu\ with\ given\ conditions\ about\ the\ current\ game.\r\n\r\n\ @param\ gameOver\ Whether\ or\ not\ the\ game\ is\ over\r\n\ @param\ muted\ Whether\ or\ not\ the\ game\ is\ muted\r\n\ @param\ round\ The\ current\ round\r\n\ @param\ maxRound\ The\ max\ round\ in\ the\ level\r\n\ @param\ numEnemies\ The\ number\ of\ enemies\ in\ the\ game\ at\ the\ point\ it\ is\ created.\r\n
+comment2.params=
+comment2.target=void\ removeButtons()
+comment2.text=\r\n\ Removes\ all\ the\ buttons\ in\ the\ buttons\ arrayList\r\n
+comment3.params=
+comment3.target=void\ act()
+numComments=4

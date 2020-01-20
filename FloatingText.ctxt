@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=FloatingText
+comment0.text=\r\n\ Adds\ a\ customizable\ text\ that\ floats\ upwards\ from\ where\ it\ was\ added\ and\ removes\ itself\ \r\n\ after\ a\ certain\ amount\ of\ time.\r\n\ \r\n\ @author\ Kevin\ Biro\r\n\ @version\ January\ 16th\ 2019\r\n
+comment1.params=floatSpeed\ display\ levelType
+comment1.target=FloatingText(int,\ java.lang.String,\ int)
+comment1.text=\r\n\ Constructs\ the\ text\ with\ a\ set\ float\ speed,\ display\ and\ level\ type.\r\n\r\n\ @param\ floatSpeed\ The\ speed\ at\ which\ the\ text\ floats\ and\ disappears\r\n\ @param\ display\ The\ display\ of\ the\ text\r\n\ @param\ levelType\ The\ level\ type.\r\n
+comment2.params=floatSpeed
+comment2.target=void\ floatAway(int)
+comment2.text=\r\n\ Floats\ away\ upwards\ at\ the\ float\ speed.\r\n\r\n\ @param\ floatSpeed\ The\ speet\ at\ which\ is\ moves\r\n
+comment3.params=
+comment3.target=void\ act()
+numComments=4

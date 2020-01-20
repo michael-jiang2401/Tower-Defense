@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Explosion
+comment0.text=\r\n\ This\ class\ is\ a\ customizable\ explosion\ which\ deals\ damage\ to\ enemies.\r\n\ \r\n\ @author\ Michael\ Jiang\ \ \ \ \r\n\ @version\ 1/18/2019\r\n
+comment1.params=damage
+comment1.target=Explosion(int)
+comment1.text=\r\n\ Creates\ a\ standard\ explosion\ which\ deals\ a\ specified\ amount\ of\ damage\ each\ frame\r\n\ \r\n\ @param\ damage\ The\ amount\ of\ damage\ that\ specific\ frames\ which\ deal\ to\ enemies\r\n
+comment2.params=damage\ scale
+comment2.target=Explosion(int,\ int)
+comment2.text=\r\n\ Creates\ a\ custom\ explosion\ which\ deals\ a\ specified\ amount\ of\ damage\ with\ a\ different\ image\ scale\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ Explosion\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment4.params=
+comment4.target=void\ animate()
+comment4.text=\r\n\ Manages\ the\ animation\ and\ damage\ of\ the\ explosion\r\n
+numComments=5

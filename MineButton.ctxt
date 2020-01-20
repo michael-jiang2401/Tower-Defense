@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MineButton
+comment0.text=\r\n\ This\ is\ a\ button\ which\ spawns\ amine\ which\ can\ be\ set\ on\ the\ ground\ and\ explodes\ when\ an\ enemy\ steps\ over\ it.\ \r\n\ An\ explosion\ is\ created\ which\ damages\ the\ enemy\r\n\ \r\n\ @author\ Kevin\ Y\ \r\n\ @version\ 18/01/2019\r\n
+comment1.params=
+comment1.target=MineButton()
+comment1.text=\r\n\ Creates\ a\ mine\ button\ which\ allows\ users\ to\ spawn\ mines\ when\ clicked\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ AirStrike\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ addConsumable()
+comment3.text=\r\n\ checks\ whether\ or\ not\ there\ is\ enough\ money\ for\ a\ mine\ to\ be\ purchased\r\n
+numComments=4

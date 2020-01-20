@@ -1,0 +1,68 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class Highscores here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Highscores extends Actor
+{
+    private GreenfootImage image;
+    public Highscores(int[][] save)
+    {
+        image = new GreenfootImage(800,500);
+        drawHighscores(save);
+    }
+
+    public void drawHighscores(int[][] savedFile)
+    {
+        image.setFont(image.getFont().deriveFont(27f));
+        image.setColor(Color.WHITE);
+        image.fill();
+        image.setColor(Color.BLACK);
+        image.drawString("Level 1",50,50);
+        image.drawString("Level 2",250,50);
+        image.drawString("Level 3",450,50);
+        image.drawString("Endless",650,50);
+
+        for(int i = 0; i < 10; i++)
+        {
+            for(int j = 0; j < savedFile[0].length; j++)
+            {
+                image.setFont(image.getFont().deriveFont(15f));
+                switch(j)
+                {
+                    case 0:
+                    {
+                        image.drawString("$"+savedFile[i][j],20 + j * 10,100 + i*40);
+                        break;
+                    }
+                    case 1:
+                    {
+                        image.drawString("\u2665"+savedFile[i][j],20 + j * 10,100 + i*40);
+                        break;
+                    }
+                    case 2:
+                    {
+                        image.drawString("Round: "+savedFile[i][j],20 + j * 80,100 + i*40);
+                        break;
+                    }
+                    case 3:
+                    {
+                        image.drawString("Level: "+savedFile[i][j],20 + j * 80,100 + i*40);
+                    }
+                    
+                    image.drawString(""+savedFile[i][j],20 + j * 80,100 + i*40);
+                }
+            }
+        }
+
+        setImage(image);
+    }
+
+    public void act() 
+    {
+        // Add your action code here.
+    }    
+}

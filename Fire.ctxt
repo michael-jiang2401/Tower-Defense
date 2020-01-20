@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Fire
+comment0.text=\r\n\ Fire\ proejctile\ shot\ by\ the\ flamethrower\ turret\r\n\ \r\n\ @author\ Michael\ \r\n\ @version\ 1/18/2019\r\n
+comment1.params=rotation\ damage\ tower
+comment1.target=Fire(int,\ int,\ Tower)
+comment1.text=\r\n\ creates\ a\ fire\ given\ different\ parameters\r\n\ \r\n\ @param\ rotation\ The\ inital\ rotation\ of\ the\ projectile\r\n\ @param\ damage\ The\ damage\ dealt\ by\ the\ projectile\r\n\ @param\ tower\ The\ tower\ that\ the\ projectile\ came\ from\r\n
+comment2.params=
+comment2.target=void\ setTransparency()
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ checkAndRemove()
+comment4.text=\r\n\ checks\ whether\ this\ projectile\ is\ touching\ an\ enemy\ or\ is\ at\ the\ edge\ of\ the\ world\r\n
+numComments=5

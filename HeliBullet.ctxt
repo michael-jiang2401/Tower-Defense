@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=HeliBullet
+comment0.text=\r\n\ Helicopter\ bullet\ class\ that\ is\ shot\ by\ the\ helicopter\ consumable\r\n\ \r\n\ @author\ Michael\ Jiang\r\n\ @version\ 1/18/2019\r\n
+comment1.params=rotation\ damage\ xLoc\ yLoc
+comment1.target=HeliBullet(int,\ int,\ int,\ int)
+comment1.text=\r\n\ creates\ a\ helicopter\ bullet\ given\ different\ parameters\r\n\ \r\n\ @param\ rotation\ The\ inital\ rotation\ of\ the\ projectile\r\n\ @param\ damage\ The\ damage\ dealt\ by\ the\ projectile\r\n\ @param\ xLoc\ The\ x\ coordinate\ of\ the\ explosion\r\n\ @param\ yLoc\ the\ y\ coordinate\ of\ the\ explosion\r\n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ checkAndRemove()
+comment3.text=\r\n\ Method\ which\ checks\ and\ removes\ the\ helicopter\ bullet\r\n
+numComments=4

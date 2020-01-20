@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Frost
+comment0.text=\r\n\ Rapidly\ shoots\ out\ ice\ towards\ enemies.\ Slows\ down\ enemies.\ Inherits\ the\ tower\ class.\r\n\ \r\n\ @author\ Kevin\ B,\ Kevin\ Y\r\n\ @version\ January\ 16th\ 2019\r\n
+comment1.params=towerType\ canDrag\ valid\ num\ xp
+comment1.target=Frost(int,\ boolean,\ boolean,\ int,\ int)
+comment1.text=\r\n\ Constructs\ the\ frost\ tower\ with\ 5\ upgrades,\ a\ set\ cost,\ damage,\ and\ fire\ spread.\ \r\n\ Upgrades\ the\ tower\ if\ it\ is\ loaded\ in\ with\ a\ different\ upgrade\ level.\r\n\ \r\n\ @param\ towerType\ The\ type\ of\ the\ tower\r\n\ @param\ canDrag\ Whether\ or\ not\ the\ tower\ can\ be\ dragged\r\n\ @param\ valid\ Whether\ or\ not\ the\ tower\ location\ is\ valid.\r\n\ @param\ num\ The\ number\ of\ upgrades\ that\ the\ tower\ has\r\n\ @param\ xp\ The\ number\ of\ xp\r\n
+comment2.params=
+comment2.target=void\ upgradeStats()
+comment2.text=\r\n\ Upgrades\ the\ stats\ of\ the\ tower\r\n
+comment3.params=
+comment3.target=void\ muteSounds()
+comment3.text=\r\n\ Mutes\ all\ the\ sounds\ that\ are\ playing\r\n
+comment4.params=
+comment4.target=void\ act()
+comment5.params=
+comment5.target=void\ shoot()
+comment5.text=\r\n\ Shotes\ ice\ at\ a\ set\ speed\r\n
+numComments=6

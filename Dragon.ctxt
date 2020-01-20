@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Dragon
+comment0.text=\r\n\ This\ enemy\ run\ through\ all\ the\ path\ and\ goes\ towards\ the\ flag\ without\ \r\n\ stopping\r\n\ \r\n\ @author\ Kevin\ Biro\r\n\ @version\ January\ 16th\ 2019\r\n
+comment1.params=s\ health
+comment1.target=Dragon(int,\ int)
+comment1.text=\r\n\ creates\ a\ new\ Dragon\ with\ a\ healthbar\ and\ speed\r\n\ \r\n\ @param\ s\ The\ speed\ of\ the\ enemy\r\n\ @param\ health\ The\ enemy\ health\r\n
+comment2.params=damage
+comment2.target=void\ takeDamage(int)
+comment2.text=\r\n\ calling\ this\ method\ will\ make\ this\ enemy\ take\ damage\r\n\ @param\ damage\ \ \ \ \ \ \ \ amount\ of\ damage\r\n
+comment3.params=
+comment3.target=void\ animate()
+comment3.text=\r\n\ animates\ the\ dragon\r\n
+comment4.params=
+comment4.target=void\ followTarget()
+comment4.text=\r\n\ method\ to\ follow\ target\r\n
+comment5.params=
+comment5.target=void\ act()
+numComments=6

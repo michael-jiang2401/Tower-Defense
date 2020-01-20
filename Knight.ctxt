@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Knight
+comment0.text=\r\n\ The\ most\ basic\ enemy\ known\ as\ the\ knight\r\n\ \r\n\ @author\ Kevin\ Biro\r\n\ @version\ January\ 16th\ 2019\r\n
+comment1.params=s\ health
+comment1.target=Knight(int,\ int)
+comment1.text=\r\n\ creates\ a\ new\ Knight\ with\ a\ healthbar\ and\ speed\r\n\ @param\ s\ The\ speed\ of\ the\ enemy\r\n\ @param\ health\ The\ enemy\ health\r\n
+comment2.params=
+comment2.target=void\ act()
+numComments=3

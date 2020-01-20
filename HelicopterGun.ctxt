@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=HelicopterGun
+comment0.text=\r\n\ This\ is\ a\ gun\ which\ sticks\ onto\ the\ helicopter\ and\ can\ fire\ bullets\r\n\ \r\n\ @author\ Michael\ Jiang\r\n\ @version\ 18/01/2019\r\n
+comment1.params=heli
+comment1.target=HelicopterGun(Helicopter)
+comment1.text=\r\n\ creates\ a\ helicopter\ gun\ which\ aims\ towards\ the\ mouse\ and\ fires\ bullets\r\n\ \r\n\ @param\ heli\ The\ helicopter\ which\ the\ gun\ sticks\ onto\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ HelicopterGun\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ addedToWorld()
+comment3.text=\r\n\ Adds\ reload\ bar\ when\ helicopter\ is\ added\ to\ world\r\n
+comment4.params=
+comment4.target=void\ removeHB()
+comment4.text=\r\n\ Removes\ reload\ bar\ when\ helicopter\ is\ removed\ \r\n
+comment5.params=
+comment5.target=void\ aim()
+comment5.text=\r\n\ Aims\ the\ gun\ towards\ the\ location\ of\ the\ mouse\ and\ fires\ a\ bullet\ when\ space\ is\ pressed\r\n
+numComments=6

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Demon
+comment0.text=\r\n\ Sub\ class\ of\ enemy,\ this\ enemy\ is\ extremely\ tanky\ is\ considered\ an\ end\ game\ \r\n\ monster.\r\n\ \r\n\ @author\ Kevin\ Biro\r\n\ @version\ January\ 16th\ 2019\r\n
+comment1.params=s\ health
+comment1.target=Demon(int,\ int)
+comment1.text=\r\n\ creates\ a\ new\ Demon\ with\ a\ healthbar\ and\ speed\r\n\ @param\ s\ The\ speed\ of\ the\ enemy\r\n\ @param\ health\ The\ enemy\ health\r\n
+comment2.params=
+comment2.target=void\ animate()
+comment2.text=\r\n\ animates\ the\ demon\r\n
+comment3.params=damage
+comment3.target=void\ takeDamage(int)
+comment3.text=\r\n\ calling\ this\ method\ will\ make\ this\ enemy\ take\ damage\r\n\ @param\ damage\ \ \ \ \ \ \ \ amount\ of\ damage\r\n
+comment4.params=
+comment4.target=void\ act()
+numComments=5

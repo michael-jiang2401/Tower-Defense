@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Helicopter
+comment0.text=\r\n\ This\ is\ a\ helicopter\ that\ flies\ around\ the\ map\ and\ can\ be\ controlled\ by\ the\ user\ to\ \r\n\ shoot\ at\ the\ location\ of\ the\ mouse\r\n\ \r\n\ @author\ Michael\ \r\n\ @version\ 18/01/2019\r\n
+comment1.params=roundsAlive
+comment1.target=Helicopter(int)
+comment1.text=\r\n\ Creates\ a\ helicopter\ which\ flies\ around\ and\ can\ shoot\r\n\ \r\n\ @param\ roundsAlive\ The\ amount\ of\ rounds\ the\ helicopter\ has\ been\ alive\ so\ that\ it\ \r\n\ can\ be\ properly\ loaded\ from\ a\ save\ file\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Helicopter\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ flyAway()
+comment3.text=\r\n\ Makes\ the\ helicopter\ fly\ away\ after\ 5\ rounds\ \r\n
+comment4.params=num
+comment4.target=void\ setRoundsAlive(int)
+comment4.text=\r\n\ Sets\ the\ rounds\ alive\ value\r\n\ \r\n\ @param\ num\ The\ number\ of\ rounds\ that\ the\ helicopter\ has\ been\ alive\r\n
+comment5.params=
+comment5.target=void\ rotate()
+comment5.text=\r\n\ sets\ the\ rotation\ of\ the\ helicopter\ \r\n
+comment6.params=
+comment6.target=void\ moveCycle()
+comment6.text=\r\n\ makes\ the\ helicopter\ move\ in\ a\ rectangular\ pattern\r\n
+comment7.params=
+comment7.target=void\ animate()
+comment7.text=\r\n\ animates\ the\ helicopter\ \r\n
+numComments=8

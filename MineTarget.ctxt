@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=MineTarget
+comment0.text=\r\n\ Shows\ a\ mine\ that\ follows\ the\ mouse\ to\ help\ place\ it.\r\n\ \r\n\ @author\ Michael\ J,\ Kevin\ Y\r\n\ @version\ January\ 16th\ 2019\r\n
+comment1.params=cost
+comment1.target=MineTarget(int)
+comment1.text=\r\n\ Constructs\ a\ MineTarget\ with\ a\ set\ cost\r\n\r\n\ @param\ cost\ The\ cost\ of\ the\ Mine\r\n
+comment2.params=
+comment2.target=void\ click()
+comment2.text=\r\n\ Checks\ if\ the\ mouse\ is\ pressed.\r\n\r\n
+comment3.params=
+comment3.target=void\ act()
+numComments=4

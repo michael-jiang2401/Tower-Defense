@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=FrostBeam
+comment0.text=\r\n\ Frost\ projectile\ shot\ by\ the\ frost\ tower\r\n\ \r\n\ @author\ Kevin\ Y\r\n\ @version\ January\ 16th\ 2019\r\n
+comment1.params=rotation\ damage\ tower
+comment1.target=FrostBeam(int,\ int,\ Tower)
+comment1.text=\r\n\ Creates\ a\ frost\ given\ different\ parameters\r\n\ \r\n\ @param\ rotation\ The\ inital\ rotation\ of\ the\ projectile\r\n\ @param\ damage\ The\ damage\ dealt\ by\ the\ projectile\r\n\ @param\ tower\ The\ tower\ that\ the\ projectile\ came\ from\r\n
+comment2.params=
+comment2.target=void\ setTransparency()
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ checkAndRemove()
+comment4.text=\r\n\ checks\ whether\ this\ projectile\ is\ touching\ an\ enemy\ or\ is\ at\ the\ edge\ of\ the\ world\r\n
+numComments=5

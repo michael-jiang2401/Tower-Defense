@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Highscores
+comment0.text=\r\n\ Displays\ the\ highscores\ that\ have\ been\ accumulated\ in\ the\ games\ played.\r\n\ Sorts\ the\ data\ from\ a\ save\ based\ on\ level\ >\ round\ >\ lives\ >\ money\ and\ then\ displays\ on\ the\ screen\r\n\ \r\n\ @author\ Kevin\ Biro\r\n\ @version\ January\ 16th\ 2019\r\n
+comment1.params=save\ level
+comment1.target=Highscores(int[][],\ int)
+comment1.text=\r\n\ Constructs\ the\ highscores\ display\ by\ getting\ the\ save\ file\ and\ the\ level\ being\ displayed.\r\n\r\n\ @param\ save\ The\ save\ containing\ all\ the\ Highscores\r\n\ @param\ level\ The\ level\ currently\ being\ displayed\r\n
+comment2.params=level
+comment2.target=void\ update(int)
+comment2.text=\r\n\ Updates\ the\ image\ based\ on\ the\ level\r\n\r\n\ @param\ level\ The\ current\ level\r\n
+comment3.params=save
+comment3.target=int[][]\ sortHighscores(int[][])
+comment3.text=\r\n\ Sorts\ the\ highscores\ based\ on\ level\ >\ round\ >\ lives\ >\ money\r\n\r\n\ @param\ save\ The\ save\ with\ all\ the\ unsorted\ highscores.\r\n
+comment4.params=savedFile\ round
+comment4.target=void\ drawHighscores(int[][],\ int)
+comment4.text=\r\n\ Draws\ the\ highscores\ on\ the\ image.\r\n\r\n\ @param\ savedFile\ The\ sorted\ highscore\ save\r\n\ @param\ round\ The\ level\ being\ displayed\r\n
+numComments=5

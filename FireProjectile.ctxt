@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=FireProjectile
+comment0.text=\r\n\ Fire\ projectile\ class\ created\ by\ the\ ring\ turret\ \r\n\ \r\n\ @author\ Kevin\ Y\r\n\ @version\ 1/18/2019\r\n
+comment1.params=rotation\ decay\ tower
+comment1.target=FireProjectile(int,\ int,\ Tower)
+comment1.text=\r\n\ creates\ a\ fire\ projectile\ given\ different\ parameters\r\n\ \r\n\ @param\ rotation\ The\ inital\ rotation\ of\ the\ projectile\r\n\ @param\ decay\ How\ long\ the\ projectile\ will\ decay\ for\r\n\ @param\ tower\ The\ tower\ that\ the\ projectile\ came\ from\r\n
+comment2.params=
+comment2.target=void\ act()
+numComments=3

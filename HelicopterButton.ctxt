@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=HelicopterButton
+comment0.text=\r\n\ This\ is\ a\ button\ that\ spawns\ a\ helicopter\ which\ patrols\ \r\n\ \r\n\ @author\ Kevin\ B\r\n\ @version\ 18/01/2019\r\n
+comment1.params=added\ roundsAlive
+comment1.target=HelicopterButton(boolean,\ int)
+comment1.text=\r\n\ Creates\ a\ helicopter\ button\ which\ spawns\ a\ helicopter\ to\ patrol\ the\ map\r\n\ \r\n\ @param\ added\ Whether\ or\ not\ the\ helicopter\ has\ been\ added\ as\ only\ 1\ helicopter\ can\ be\ active\ \r\n\ at\ any\ given\ time\r\n\ @param\ roundsAlive\ How\ many\ rounds\ the\ helicopter\ has\ been\ alive\r\n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ click()
+comment3.text=\r\n\ Checks\ to\ see\ if\ a\ heliocpter\ has\ been\ added\ and\ if\ enough\ money\ is\ availible\ then\ adds\ the\ \r\n\ helicopter\ to\ the\ map\r\n
+comment4.params=
+comment4.target=void\ resetImage()
+comment4.text=\r\n\ Resets\ the\ image\ of\ the\ button\ and\ sets\ it\ so\ that\ another\ helicopter\ can\ be\ added\r\n
+comment5.params=
+comment5.target=void\ addConsumable()
+comment5.text=\r\n\ Adds\ the\ helicopter\ to\ the\ world\ at\ a\ specified\ point\r\n
+numComments=6

@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Menu
+comment0.text=\r\n\ World\ that\ holds\ the\ menu\ class,\ is\ the\ interface\ for\ all\ the\ level\ selecting,\ achievement,\r\n\ highscores\ and\ instructions.\r\n\ \r\n\ @author\ Kevin\ B,\ Jonathan,\ Kevin\ Y\r\n\ @version\ January\ 16th\ 2019\r\n
+comment1.params=
+comment1.target=Menu()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Menu.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ checkLoad()
+comment2.text=\r\n\ checks\ if\ there\ is\ currently\ a\ load\ file\r\n
+comment3.params=page
+comment3.target=void\ addAchievements(int)
+comment3.text=\r\n\ show\ achievement\r\n\ @param\ page\ which\ page\ the\ user\ is\ currently\ on\r\n
+comment4.params=
+comment4.target=void\ removeAchievements()
+comment4.text=\r\n\ remove\ the\ achievements\ when\ leaving\ the\ achievement\ page\r\n
+comment5.params=file
+comment5.target=void\ loadAchievements(java.lang.String)
+comment5.text=\r\n\ load\ the\ achievement\ from\ a\ save\ file\r\n\ @param\ file\ \ \ \ \ \ the\ file\ to\ load\ from\r\n
+comment6.params=file
+comment6.target=void\ loadHighscores(java.lang.String)
+comment6.text=\r\n\ load\ highscores\r\n\ @param\ file\ \ \ \ \ \ the\ file\ to\ load\ from\r\n
+comment7.params=
+comment7.target=void\ act()
+numComments=8
