@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=UpgradeMenu
+comment0.text=\r\n\ Displays\ an\ upgrade\ menu\ for\ the\ towers\ what\ they\ are\ clicked\ upon.\ In\ this\ menu,\ you\ can\ \r\n\ upgrade,\ sell\ and\ (for\ the\ laser\ tower\ only)\ lock\ the\ rotation\ of\ the\ towers.\ It\ also\ \r\n\ displays\ the\ current\ EXP\ of\ the\ tower\ and\ the\ amount\ of\ EXP\ and\ money\ you\ need\ to\ upgrade\ it.\r\n\ \r\n\ @author\ Kevin\ Biro\r\n\ @version\ January\ 16th\ 2019\r\n
+comment1.params=tower\ range
+comment1.target=UpgradeMenu(Tower,\ RangeCircle)
+comment1.text=\r\n\ Creates\ an\ upgrade\ menu\ with\ reference\ to\ the\ tower\ and\ range\ circle\ of\ the\ tower.\ \r\n\ Initializes\ the\ buttons\ and\ their\ display.\r\n
+comment2.params=b
+comment2.target=void\ setUpdateXp(boolean)
+comment2.text=\r\n\ Sets\ the\ boolean\ updateXp\ to\ what\ is\ in\ the\ parameter.\ UpdateXp\ refreshes\ the\ display\ \r\n\ of\ the\ tower's\ XP.\r\n\ \r\n\ @param\ b\ The\ boolean\ you\ want\ updateXp\ to\ be.\r\n
+comment3.params=
+comment3.target=void\ buildMenu()
+comment3.text=\r\n\ Builds\ a\ menu\ with\ an\ upgrade\ button,\ sell\ button\ and\ (for\ laser)\ lock\ button.\ \r\n\ Draws\ text\ on\ the\ menu\ to\ display\ the\ current\ EXP\ of\ the\ tower\ and\ the\ number\ of\ \r\n\ upgrades\ unlocked.\r\n
+comment4.params=
+comment4.target=void\ removeButtons()
+comment4.text=\r\n\ Removes\ all\ the\ buttons\ in\ the\ array\r\n
+comment5.params=
+comment5.target=void\ act()
+comment5.text=\r\n\ Checks\ for\ mouse\ clicks\ on\ the\ buttons\ and\ does\ a\ specific\ action\ depending\ on\ the\ type\ \r\n\ of\ the\ button.\ Updates\ the\ menu\ display\ every\ 9\ acts\ to\ reduce\ lag\r\n
+numComments=6

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Wall
+comment0.text=\r\n\ A\ single\ 1x1\ block\ that\ is\ used\ to\ adjust\ the\ enemy\ path.\r\n\ \r\n\ @author\ Kevin\ Biro\r\n\ @version\ January\ 16th\ 2019\r\n
+comment1.params=towerType\ canDrag\ valid
+comment1.target=Wall(int,\ boolean,\ boolean)
+comment1.text=\r\nConstructs\ a\ wall\ with\ a\ set\ cost\ and\ type.\r\n\r\n@param\ towerType\ The\ type\ of\ the\ tower\r\n@param\ canDrag\ Whether\ or\ not\ the\ tower\ can\ be\ dragged\r\n@param\ valid\ Whether\ or\ not\ the\ location\ of\ the\ tower\ is\ valid.\r\n
+comment2.params=
+comment2.target=void\ muteSounds()
+comment2.text=\r\nMutes\ the\ sounds\ that\ are\ playing\r\n
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ makeCopy()
+comment4.text=\r\nMakes\ a\ copy\ of\ the\ wall\r\n
+numComments=5

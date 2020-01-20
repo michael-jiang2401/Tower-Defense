@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=TowerBase
+comment0.text=\r\n\ This\ class\ is\ the\ base\ of\ the\ tower\ that\ can\ create\ any\ Tower\ in\ the\ game.\ A\ TowerBase\ has\ \r\n\ a\ tower\ type,\ a\ number\ of\ upgrades\ and\ an\ exp\ value.\ When\ creating\ a\ tower,\ the\ variables\ used\ \r\n\ to\ create\ it\ are\ passed\ on\ to\ the\ tower.\r\n\ \r\n\ @author\ Kevin\ Biro\r\n\ @version\ January\ 16th\ 2019\r\n
+comment1.params=towerType\ canDrag\ valid\ num\ xp
+comment1.target=TowerBase(int,\ boolean,\ boolean,\ int,\ int)
+comment1.text=\r\n\ Creates\ a\ tower\ base\ with\ a\ specified\ type,\ number\ of\ upgrades\ and\ exp.\r\n\ \r\n\ @param\ towerType\ The\ type\ of\ the\ tower\ that\ will\ get\ created\ on\ spawn\r\n\ @param\ canDrag\ Whether\ or\ not\ the\ tower\ created\ can\ be\ dragged\r\n\ @param\ valid\ Whether\ or\ not\ the\ tower\ placement\ is\ valid\r\n\ @param\ xp\ The\ current\ exp\ of\ the\ tower\ when\ created.\r\n
+comment2.params=
+comment2.target=boolean\ getTouchingBar()
+comment2.text=\r\n\ Returns\ whether\ or\ not\ the\ towerbase\ is\ touching\ the\ towerBar\r\n\ \r\n\ @return\ boolean\ Whether\ or\ not\ the\ towerbase\ is\ touching\ the\ towerBar\r\n
+comment3.params=w
+comment3.target=void\ addedToWorld(greenfoot.World)
+comment3.text=\r\n\ When\ the\ towerBase\ is\ added\ to\ the\ world,\ it\ creates\ a\ tower\ based\ on\ its\ tower\ type.\ \r\n\ The\ variables\ used\ to\ construct\ the\ towerbase\ are\ used\ to\ construct\ the\ tower\r\n\ \r\n\ @param\ w\ The\ world\ that\ the\ tower\ is\ being\ added\ to\r\n
+comment4.params=
+comment4.target=void\ remove()
+comment4.text=\r\n\ Removes\ the\ towerbase\ and\ the\ tower\ from\ the\ world\r\n
+comment5.params=
+comment5.target=void\ checkAndRemove()
+comment5.text=\r\n\ Checks\ if\ the\ tower\ is\ in\ a\ valid\ location\ when\ let\ go\ and\ removes\ it\ from\ the\ world\ if\ not.\r\n
+comment6.params=
+comment6.target=Tower\ getTower()
+comment6.text=\r\n\ Returns\ the\ reference\ to\ the\ tower\r\n\ \r\n\ @return\ Tower\ The\ tower\ of\ the\ towerBase\r\n
+comment7.params=
+comment7.target=void\ act()
+comment7.text=\r\n\ Constantly\ checks\ if\ its\ location\ is\ valid\ in\ the\ world\ and\ removes\ the\ towerbase\ if\ not.\r\n
+numComments=8
