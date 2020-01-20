@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Processor
+comment0.text=\r\n\ Processor\ is\ a\ class\ where\ it\ manipulates\ a\ bufferedImage,\ causing\ transformations,\ color\ changes,\ changing\ specific\ rgb\ values\ to\ create\ effects.\r\n\ It\ also\ contains\ an\ undo\ and\ redo\ feature\ and\ processes\ the\ image.\r\n\ It\ demonstrates\ the\ use\ of\ unpacking\ a\ pixel\ and\ repacking\ a\ pixel\ to\ change\ the\ rgb\ values\ of\ the\ desired\ picture\r\n\ \r\n\ @author\ Jonathan\ Wong\r\n\ @version\ 2018-11-20\r\n
+comment1.params=bi
+comment1.target=void\ greyScale(java.awt.image.BufferedImage)
+comment1.text=\r\n\ This\ method\ will\ find\ average\ of\ the\ red,\ green,\ blue\ values\ and\ set\ all\ of\ them\ to\ be\ that\ value\ to\ turn\ the\ picture\ gray.\r\n\ \r\n\ Demonstrates\ use\ of\ packagePixel()\ and\ unpackPixel()\ methods.\r\n\ \r\n\ @param\ bi\ \ \ \ The\ BufferedImage\ (passed\ by\ reference)\ to\ change.\r\n
+comment2.params=rgbaValue
+comment2.target=int[]\ unpackPixel(int)
+comment2.text=\r\n\ Takes\ in\ an\ rgb\ value\ -\ the\ kind\ that\ is\ returned\ from\ BufferedImage's\r\n\ getRGB()\ method\ -\ and\ returns\ 4\ integers\ for\ easy\ manipulation.\r\n\ \r\n\ By\ Jordan\ Cohen\r\n\ Version\ 0.2\r\n\ \r\n\ @param\ rgbaValue\ The\ value\ of\ a\ single\ pixel\ as\ an\ integer,\ representing<br>\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 8\ bits\ for\ red,\ green\ and\ blue\ and\ 8\ bits\ for\ alpha\:<br>\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <pre>alpha\ \ \ red\ \ \ \ \ green\ \ \ blue</pre>\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <pre>00000000000000000000000000000000</pre>\r\n\ @return\ int[4]\ \ \ Array\ containing\ 4\ shorter\ ints<br>\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <pre>0\ \ \ \ \ \ \ 1\ \ \ \ \ \ \ 2\ \ \ \ \ \ \ 3</pre>\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <pre>alpha\ \ \ red\ \ \ \ \ green\ \ \ blue</pre>\r\n
+comment3.params=r\ g\ b\ a
+comment3.target=int\ packagePixel(int,\ int,\ int,\ int)
+comment3.text=\r\n\ Takes\ in\ a\ red,\ green,\ blue\ and\ alpha\ integer\ and\ uses\ bit-shifting\r\n\ to\ package\ all\ of\ the\ data\ into\ a\ single\ integer.\r\n\ \r\n\ @param\ \ \ int\ red\ value\ (0-255)\r\n\ @param\ \ \ int\ green\ value\ (0-255)\r\n\ @param\ \ \ int\ blue\ value\ (0-255)\r\n\ @param\ \ \ int\ alpha\ value\ (0-255)\r\n\ \r\n\ @return\ int\ \ Integer\ representing\ 32\ bit\ integer\ pixel\ ready\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ for\ BufferedImage\r\n
+numComments=4

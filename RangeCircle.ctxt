@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=RangeCircle
+comment0.text=\r\n\ Checks\ location\ of\ mouse\ when\ clicking\ and\ menu\ added\ to\ determine\ if\ the\ menu\ was\ clicked\ \r\n\ and\ if\ it\ needs\ to\ be\ removed.\ The\ tower\ sends\ itself\ to\ the\ radius\ so\ that\ the\ menus\ are\ \r\n\ customizable\ based\ on\ the\ tower\ type.\r\n\ \r\n\ \r\n\ @author\ Kevin\ Biro\r\n\ @version\ January\ 16th\ 2019\r\n
+comment1.params=r\ type\ locked
+comment1.target=RangeCircle(int,\ Tower,\ boolean)
+comment1.text=\r\n\ Constructs\ the\ range\ circle\ with\ a\ set\ size,\ reference\ to\ the\ Tower\ calling\ it,\ \r\n\ and\ whether\ or\ not\ the\ locked\ feature\ is\ activated\r\n\r\n\ @param\ r\ The\ size\ of\ the\ radius\r\n\ @param\ type\ The\ tower\ that\ created\ the\ range\ circle\r\n\ @param\ locked\ Whether\ or\ not\ the\ locked\ feature\ is\ activated\r\n
+comment2.params=b
+comment2.target=void\ setPlacedDown(boolean)
+comment2.text=\r\n\ Sets\ the\ boolean\ placed\ down\ to\ what\ is\ in\ the\ parameter\r\n\r\n\ @param\ b\ Whether\ or\ not\ tower\ is\ placed\ down\r\n
+comment3.params=c
+comment3.target=void\ drawImage(greenfoot.Color)
+comment3.text=\r\n\ Creates\ the\ radius\r\n\r\n
+comment4.params=
+comment4.target=void\ act()
+numComments=5

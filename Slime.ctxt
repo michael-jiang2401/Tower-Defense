@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Slime
+comment0.text=\r\n\ An\ enemy\ that\ can\ resist\ all\ attacks\ other\ than\ fire\ based\ attacks\r\n\ \r\n\ @author\ Kevin\ Biro\r\n\ @version\ January\ 16th\ 2019\r\n
+comment1.params=s\ health
+comment1.target=Slime(int,\ int)
+comment1.text=\r\n\ creates\ a\ new\ Slime\ with\ a\ healthbar\ and\ speed\r\n\ @param\ s\ The\ speed\ of\ the\ enemy\r\n\ @param\ health\ The\ enemy\ health\r\n
+comment2.params=w
+comment2.target=void\ addedToWorld(MyWorld)
+comment2.text=\r\n\ when\ added\ to\ the\ world\r\n\ @param\ w\ the\ world\ it\ is\ being\ added\ into\r\n
+comment3.params=damage
+comment3.target=void\ takeDamage(int)
+comment3.text=\r\n\ calling\ this\ method\ will\ make\ this\ enemy\ take\ damage\r\n\ @param\ damage\ \ \ \ \ \ \ \ amount\ of\ damage\r\n
+comment4.params=
+comment4.target=void\ act()
+comment5.params=
+comment5.target=void\ animate()
+comment5.text=\r\n\ animate\ the\ slime\r\n
+numComments=6

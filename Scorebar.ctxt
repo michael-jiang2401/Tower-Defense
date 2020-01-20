@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Scorebar
+comment0.text=\r\n\ Score\ bar\ to\ keep\ track\ of\ all\ the\ variables\ such\ as;\ rocks,\ food,\ wood,\ gold,\r\n\ population,\ day,\ status,\ and\ average\ age.\r\n\ \r\n\ @author\ Mr.Cohen\ \r\n\ @version\ 2018-10-24\r\n
+comment1.params=
+comment1.target=Scorebar()
+comment1.text=\r\n\ Constructs\ a\ score\ bar\ that\ fits\ at\ the\ top\ of\ the\ screen\r\n
+comment2.params=w
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment2.text=\r\n\ Updates\ values\ when\ added\ to\ the\ world\r\n\ @param\ w\ The\ world\ it\ is\ being\ added\ to\r\n
+comment3.params=
+comment3.target=void\ displayStats()
+comment3.text=\r\n\ Updates\ the\ top\ bar\ with\ all\ the\ resources\ and\ statistics\ from\ the\ world\r\n
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\r\n\ Updates\ scorebar\ every\ 8\ acts\ to\ reduce\ lag.\ \r\n
+numComments=5

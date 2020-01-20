@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Obstacle
+comment0.text=\r\n\ Spawned\ by\ the\ world\ and\ cannot\ be\ removed.\r\n\ \r\n\ @author\ Kevin\ Biro\r\n\ @version\ January\ 16th\ 2019\r\n
+comment1.params=
+comment1.target=Obstacle()
+comment1.text=\r\nConstructs\ the\ obstacle\ with\ a\ set\ fade\ timer.\r\n
+comment2.params=w
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment2.text=\r\nChanges\ the\ transparency\ of\ the\ obstacle\ when\ added\ to\ the\ world\ if\ on\ level\ 3\ \r\nto\ make\ it\ more\ visible.\r\n\r\n@param\ w\ The\ world\ being\ added\ to.\r\n
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ fadeTransp()
+comment4.text=\r\nFades\ the\ transparency\ randomly.\ Increases\ the\ transparency\ then\ lowers\ it\ back\ to\ its\ \r\noriginal\ transparency\r\n
+comment5.params=
+comment5.target=void\ muteSounds()
+comment5.text=\r\nMute\ the\ sounds\ if\ any\ are\ playing\r\n
+numComments=6

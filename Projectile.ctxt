@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Projectile
+comment0.text=\r\n\ This\ is\ the\ abstract\ parent\ class\ of\ all\ projectiles\ in\ the\ game.\ Projectiles\ \r\n\ have\ speed\ and\ damage\ values,\ and\ may\ have\ an\ associated\ tower.\r\n\ \r\n\ @author\ Kevin\ B,\ Kevin\ Y,\ Michael\r\n\ @version\ 1/18/2019\r\n
+comment1.params=
+comment1.target=void\ checkAndRemove()
+comment1.text=\r\n\ Checks\ if\ the\ projectile\ has\ collided\ with\ an\ enemy.\ If\ the\ projectile\ \r\n\ contacts\ an\ enemy,\ the\ enemy\ takes\ damage\ and\ the\ projectile\ is\ removed.\r\n\ Also\ removes\ the\ projectile\ if\ it\ is\ at\ the\ edge\ of\ the\ world.\r\n
+numComments=2

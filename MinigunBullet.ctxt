@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=MinigunBullet
+comment0.text=\r\n\ This\ class\ is\ the\ bullet\ created\ by\ the\ minigun\ tower\r\n\ \r\n\ @author\ Michael\ Jiang\r\n\ @version\ 1/18/2019\r\n
+comment1.params=rotation\ damage\ tower
+comment1.target=MinigunBullet(int,\ int,\ Tower)
+comment1.text=\r\n\ Creates\ a\ minigun\ bullet\r\n\ \r\n\ @param\ rotation\ The\ direction\ that\ the\ bullet\ has\ to\ face\r\n\ @param\ damage\ The\ damage\ dealt\ by\ this\ bullet\r\n\ @param\ tower\ The\ tower\ which\ created\ this\ bullet\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ MinigunBullet\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=3

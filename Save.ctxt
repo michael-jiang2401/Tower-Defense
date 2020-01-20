@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Save
+comment0.text=\r\n\ A\ class\ containing\ methods\ that\ save\ the\ game,\ achievements,\ highscore.\ Can\ also\ clear\ a\ save\ file.\r\n\ \r\n\ @author\ Kevin\ B,\ Kevin\ Y,\ Jonathan\r\n\ @version\ January\ 16th\ 2019\r\n
+comment1.params=save\ w
+comment1.target=void\ saveFile(Tower[][],\ MyWorld)
+comment1.text=\r\n\ Saves\ the\ game\ to\ a\ text\ file\ to\ be\ loaded\ in\ later.\ Prints\ important\ values\ to\ the\ file\ \r\n\ such\ as\ money,\ lives,\ round,\ towers\ etc.\r\n\ \r\n\ @param\ save\ The\ 2d\ array\ that\ contains\ all\ the\ towers\r\n\ @param\ w\ The\ world\ being\ saved\r\n
+comment2.params=
+comment2.target=void\ deleteSave()
+comment2.text=\r\n\ Deletes\ the\ text\ file\ save\ by\ writing\ over\ the\ previous\ text\r\n
+comment3.params=bool
+comment3.target=void\ saveAchievements(boolean[])
+comment3.text=\r\n\ Saves\ the\ achievements\ from\ a\ given\ list\ of\ booleans\ which\ indicate\ if\ the\ achievement\ is\ \r\n\ unlocked\r\n\ \r\n\ @param\ bool\ The\ list\ of\ booleans\ being\ saved\r\n
+comment4.params=w
+comment4.target=void\ saveHighscore(MyWorld)
+comment4.text=\r\n\ Saves\ the\ game\ statistics\ when\ player\ loses\ or\ wins\r\n\ \r\n\ @param\ w\ The\ main\ world\ where\ all\ the\ game\ variables\ are\ saved\r\n
+numComments=5

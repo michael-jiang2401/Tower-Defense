@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Rocket
+comment0.text=\r\n\ Rocket\ projectile\ shot\ by\ the\ rocket\ turret\r\n\ \r\n\ @author\ Kevin\ B\r\n\ @version\ 1/18/2018\r\n
+comment1.params=rotation\ damage\ tower
+comment1.target=Rocket(int,\ int,\ Tower)
+comment1.text=\r\n\ creates\ a\ rocket\ given\ different\ parameters\r\n\ \r\n\ @param\ rotation\ The\ inital\ rotation\ of\ the\ projectile\r\n\ @param\ damage\ The\ damage\ dealt\ by\ the\ projectile\r\n\ @param\ tower\ The\ tower\ that\ the\ projectile\ came\ from\r\n
+comment2.params=
+comment2.target=void\ act()
+numComments=3

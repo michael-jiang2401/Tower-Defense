@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=TextButton
+comment0.text=\r\n\ A\ Generic\ Button\ to\ display\ text\ that\ is\ clickable.\ Owned\ by\ a\ World,\ which\ controls\ click\r\n\ capturing.\ Buttons\ are\ modular,\ you\ can\ modify\ the\ button\ text,\ backcolour,\ size,\ and\ text\ colour.\r\n\ \r\n\ @author\ Jordan\ Cohen,\ Kevin\ Biro\r\n\ @version\ v0.1.5\r\n
+comment1.params=text\ type
+comment1.target=TextButton(java.lang.String,\ int)
+comment1.text=\r\n\ Construct\ a\ TextButton\ with\ a\ given\ String\ at\ the\ default\ size\r\n\ \r\n\ @param\ text\ \ String\ value\ to\ display\r\n\ \r\n
+comment2.params=text\ textSize\ color\ textColor\ type
+comment2.target=TextButton(java.lang.String,\ int,\ greenfoot.Color,\ greenfoot.Color,\ int)
+comment2.text=\r\n\ Construct\ a\ TextButton\ with\ a\ given\ String\ and\ a\ specified\ size\r\n\ \r\n\ @param\ text\ \ String\ value\ to\ display\r\n\ @param\ textSize\ \ size\ of\ text,\ as\ an\ integer\r\n\ \r\n
+comment3.params=text
+comment3.target=void\ update(java.lang.String)
+comment3.text=\r\n\ Change\ the\ text\ displayed\ on\ this\ Button\r\n\ \r\n\ @param\ \ \ text\ \ \ \ String\ to\ display\r\n\ \r\n
+comment4.params=text\ color
+comment4.target=void\ update(java.lang.String,\ greenfoot.Color)
+comment5.params=text\ textSize\ backColor\ textColor
+comment5.target=void\ drawImage(java.lang.String,\ int,\ greenfoot.Color,\ greenfoot.Color)
+comment5.text=\r\n\ Draws\ the\ image,\ adds\ a\ modifyable\ string\ and\ back\ color\r\n\ \r\n\ @param\ text\ The\ text\ you\ want\ to\ display\ on\ the\ button\r\n\ @param\ textSize\ The\ size\ of\ the\ text\r\n\ @param\ backColor\ The\ back\ color\ of\ the\ button\r\n
+comment6.params=
+comment6.target=void\ update()
+comment6.text=\r\n\ Updates\ the\ image\ when\ the\ mouse\ is\ over\ it\ by\ lighting\ up\ red.\r\n
+comment7.params=
+comment7.target=void\ act()
+comment7.text=\r\n\ Checks\ mouse\ movement\ over\ image\ and\ updates\ when\ necessary\r\n
+numComments=8

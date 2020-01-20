@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=PathBall
+comment0.text=\r\n\ Placed\ on\ the\ path\ that\ the\ enemies\ take\r\n\ \r\n\ @author\ Kevin\ Biro\r\n\ @version\ January\ 16th\ 2019\r\n
+comment1.params=num
+comment1.target=PathBall(int)
+comment1.text=\r\n\ Constructs\ a\ pathBall\ with\ a\ set\ type\ to\ distinguish\ between\ 2\ different\ enemy\ paths\r\n\ \r\n\ @param\ num\ The\ type\ of\ the\ pathBall\r\n
+comment2.params=w
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment2.text=\r\n\ Changes\ the\ transparency\ of\ the\ pathBall\ if\ the\ level\ is\ 3\r\n\ \r\n\ @param\ w\ The\ world\ being\ added\ to\r\n
+comment3.params=num
+comment3.target=void\ destroy(int)
+comment3.text=\r\n\ Sets\ the\ pathBall\ to\ destroy\ if\ the\ type\ corresponds\ to\ the\ pathBall\ type\r\n\ \r\n\ @param\ num\ The\ type\ of\ the\ pathBall\r\n
+comment4.params=
+comment4.target=void\ act()
+numComments=5

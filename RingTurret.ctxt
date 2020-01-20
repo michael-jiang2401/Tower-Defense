@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=RingTurret
+comment0.text=\r\n\ Tower\ that\ can\ shoot\ rings\ of\ bullets\ around\ itself.\ Inherits\ the\ tower\ class\r\n\ \r\n\ @author\ Kevin\ Yang\r\n\ @version\ Dec\ 13\r\n
+comment1.params=towerType\ canDrag\ valid\ num\ xp
+comment1.target=RingTurret(int,\ boolean,\ boolean,\ int,\ int)
+comment1.text=\r\n\ Constructs\ the\ ring\ turret\ with\ 5\ upgrades,\ a\ set\ cost,\ damage,\ shot\ speed.\ \r\n\ Upgrades\ the\ tower\ if\ it\ is\ loaded\ in\ with\ a\ different\ upgrade\ level.\r\n\ \r\n\ @param\ towerType\ The\ type\ of\ the\ tower\r\n\ @param\ canDrag\ Whether\ or\ not\ the\ tower\ can\ be\ dragged\r\n\ @param\ valid\ Whether\ or\ not\ the\ tower\ location\ is\ valid.\r\n\ @param\ num\ The\ number\ of\ upgrades\ that\ the\ tower\ has\r\n\ @param\ xp\ The\ number\ of\ xp\r\n
+comment2.params=
+comment2.target=void\ muteSounds()
+comment2.text=\r\nMutes\ the\ sounds\ that\ are\ playing\r\n\r\n
+comment3.params=
+comment3.target=void\ shoot()
+comment3.text=\r\nShoots\ fire\ projectiles\ around\ the\ tower\ at\ the\ same\ time.\r\n\r\n
+comment4.params=
+comment4.target=void\ upgradeStats()
+comment4.text=\r\nUpgrades\ the\ stats\ of\ the\ tower\r\n\r\n
+comment5.params=
+comment5.target=void\ act()
+numComments=6
