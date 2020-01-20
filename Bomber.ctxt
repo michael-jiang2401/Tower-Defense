@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Bomber
+comment0.text=\r\n\ Bomber\ class\ which\ drops\ a\ row\ of\ bombs\r\n\ \r\n\ @author\ Michael\ Jiang\r\n\ @version\ 1/18/2019\r\n
+comment1.params=
+comment1.target=Bomber()
+comment1.text=\r\n\ Creates\ a\ bomber\ setting\ the\ bomb\ counter\ to\ 0.\ The\ bomber\ will\ fly\ horizontally\r\n\ across\ the\ screen\ while\ dropping\ bombs\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Bomber\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ dropBomb()
+comment3.text=\r\n\ manages\ bomb\ dropping\r\n
+numComments=4

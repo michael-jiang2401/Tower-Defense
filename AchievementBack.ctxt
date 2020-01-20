@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=AchievementBack
+comment0.text=\r\n\ AchievementBack\ is\ a\ class\ that\ aids\ the\ hitbox\ of\ the\ Achievement\ Class\ by\ creating\ a\ transparent\ image\ that\ can\ easily\ detect\ if\ the\ mouse\ is\ hovering\ over\ it.\r\n\ It\ creates\ a\ transparent\ image\ the\ same\ size\ as\ the\ Achievement\ Image\r\n\ \r\n\ @author\ Jonathan\r\n\ @version\ January\ 16th\ 2019\r\n
+comment1.params=a\ b
+comment1.target=AchievementBack(int,\ int)
+comment1.text=\r\n\ Creates\ A\ new\ AchievementBack\ with\ a\ image\ size\ of\ the\ Achievement\ Image\ \r\n\ \r\n\ @param\ a\ The\ width\ of\ the\ image\r\n\ @param\ b\ The\ height\ of\ the\ image\r\n
+numComments=2

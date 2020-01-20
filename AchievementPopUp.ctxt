@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=AchievementPopUp
+comment0.text=\r\n\ AchievementPopUp\ is\ a\ class\ that\ tells\ the\ player\ that\ he/she\ has\ unlocked\ an\ achievement.\r\n\ The\ class\ displays\ words\ that\ tell\ the\ player\ what\ the\ achievement\ is\ and\ slowly\ fades\ away\r\n\ \r\n\ @author\ Jonathan\r\n\ @version\ January\ 19th\ 2019\r\n
+comment1.params=display
+comment1.target=AchievementPopUp(java.lang.String)
+comment1.text=\r\n\ Creates\ a\ new\ AchievementPopUp\ with\ the\ string\ that\ it\ wants\ to\ display\r\n\ \r\n\ @param\ display\ \ \ A\ string\ that\ displays\ what\ acheivement\ the\ player\ has\ unlocked\r\n
+comment2.params=
+comment2.target=void\ act()
+numComments=3

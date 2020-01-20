@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=AirStrikeButton
+comment0.text=\r\n\ This\ is\ a\ button\ that\ allows\ an\ airstrike\ to\ be\ spawned\ when\ it\ is\ clicked\r\n\ \r\n\ @author\ Michael\r\n\ @version\ 18/01/2019\r\n
+comment1.params=
+comment1.target=AirStrikeButton()
+comment1.text=\r\n\ Creates\ an\ airstrike\ button\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ AirStrike\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ addConsumable()
+comment3.text=\r\n\ Adds\ the\ target\ of\ the\ airstrike\ to\ the\ world\r\n
+numComments=4

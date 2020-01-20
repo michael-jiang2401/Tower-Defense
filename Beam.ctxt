@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Beam
+comment0.text=\r\n\ This\ is\ the\ visual\ effect\ created\ by\ the\ beam\ turret\ when\ it\ shoots\r\n\ \r\n\ @author\ Michael,\ Kevin\ B\ \r\n\ @version\ 1/18/2019\r\n
+comment1.params=rotation\ damage\ tower
+comment1.target=Beam(int,\ int,\ Tower)
+comment1.text=\r\n\ creates\ a\ Beam\ given\ different\ parameters\r\n\ \r\n\ @param\ rotation\ The\ inital\ rotation\ of\ the\ projectile\r\n\ @param\ damage\ The\ damage\ dealt\ by\ the\ projectile\r\n\ @param\ tower\ The\ tower\ that\ the\ projectile\ came\ from\r\n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ animate()
+comment3.text=\r\n\ Animates\ the\ beam\ and\ spawns\ beam\ helpers\ to\ damage\ enemies\r\n
+numComments=4

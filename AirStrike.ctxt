@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=AirStrike
+comment0.text=\r\n\ Airstrike\ class\ which\ spawns\ an\ explosion\ after\ passing\ over\ a\ specific\ x\ position\r\n\ \r\n\ @author\ Michael\ Jiang\ \r\n\ @version\ 1/18/2019\r\n
+comment1.params=xPos
+comment1.target=AirStrike(int)
+comment1.text=\r\n\ Creates\ an\ Airstrike\ which\ flys\ horizontally\ and\ drops\ a\ bomb\ after\ passing\ a\ specified\ \r\n\ x\ location\r\n\ \r\n\ @param\ xPos\ The\ x\ position\ where\ the\ bomb\ should\ be\ dropped\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ AirStrike\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=3

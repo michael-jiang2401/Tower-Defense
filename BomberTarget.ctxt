@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=BomberTarget
+comment0.text=\r\n\ Shows\ the\ path\ that\ the\ bomber\ will\ take\ before\ placing\ it\r\n\ \r\n\ @author\ Michael\ J\r\n\ @version\ January\ 16th\ 2019\r\n
+comment1.params=cost
+comment1.target=BomberTarget(int)
+comment1.text=\r\n\ Constructs\ the\ BomberTarget\ with\ a\ set\ cost\r\n\r\n\ @param\ cost\ The\ cost\ of\ the\ bomber\r\n
+comment2.params=
+comment2.target=void\ clickAndDrop()
+comment2.text=\r\n\ The\ click\ and\ drop\ functionality\ of\ the\ bomberTarget\r\n\r\n
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ fade()
+comment4.text=\r\n\ Fades\ the\ bomber\ target\ when\ clicked\ by\ changing\ the\ transparency\r\n\r\n
+numComments=5

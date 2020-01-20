@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=AirStrikeTarget
+comment0.text=\r\n\ Crosshairs\ that\ help\ the\ user\ target\ the\ airstrike\ before\ using\ it.\r\n\ \r\n\ @author\ Michael\ J\r\n\ @version\ January\ 16th\ 2019\r\n
+comment1.params=cost
+comment1.target=AirStrikeTarget(int)
+comment1.text=\r\n\ Constructs\ the\ AirStrike\ target\ with\ a\ set\ cost\r\n\r\n\ @param\ cost\ The\ cost\ of\ the\ AirStrikeTarget\r\n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ fade()
+comment3.text=\r\n\ Fades\ the\ airstrike\ target\ when\ clicked\ by\ changing\ the\ transparency\r\n\r\n
+numComments=4

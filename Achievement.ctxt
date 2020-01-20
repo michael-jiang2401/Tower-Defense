@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Achievement
+comment0.text=\r\n\ Achievement\ is\ a\ class\ that\ keeps\ track\ of\ the\ achievements\ that\ the\ player\ has\ accomplished\ throughout\ the\ game.\r\n\ It\ changes\ the\ colour\ of\ the\ achievement\ image\ to\ differeniate\ if\ the\ player\ has\ attained\ it\ or\ not\r\n\ \r\n\ @author\ Kevin\ Y\ \r\n\ @version\ January\ 16th\ 2019\r\n
+comment1.params=unlocked\ type
+comment1.target=Achievement(boolean,\ int)
+comment1.text=\r\n\ Creates\ a\ new\ Achievement\ which\ displays\ whether\ the\ specific\ achievement\ has\ been\ unlocked\ or\ not\r\n\ \r\n\ @param\ unlocked\ \ boolean\ to\ check\ if\ the\ achievement\ has\ been\ unlocked\r\n\ @param\ type\ \ \ \ \ \ int\ corresponding\ to\ the\ specific\ achievement\r\n
+comment2.params=
+comment2.target=void\ checkunlocked()
+comment2.text=\r\n\ checks\ whether\ the\ achievement\ has\ been\ unlocked\ and\ turns\ the\ image\ grey\ if\ it\ has\ not\ been\ yet\r\n
+comment3.params=
+comment3.target=void\ checkscale()
+comment3.text=\r\n\ checks\ whether\ the\ image\ imported\ is\ too\ wide\ and\ scales\ it\ down\ to\ 100\ by\ 100\ pixels\ if\ it\ is\r\n
+comment4.params=
+comment4.target=void\ act()
+comment5.params=
+comment5.target=void\ spawn()
+comment5.text=\r\n\ spawns\ the\ AchievementTag\ and\ AcheivementBack\ onto\ the\ location\ of\ the\ Achievement\ only\ when\ the\ Achievment\ has\ been\ added\ to\ the\ world\r\n
+numComments=6

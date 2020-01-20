@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=AchievementTag
+comment0.text=\r\n\ AchievementTag\ is\ a\ class\ that\ displays\ a\ textbox\ that\ tells\ the\ player\ what\ type\ of\ achievement\ the\ mouse\ is\ hovering\ over.\r\n\ It\ creates\ a\ white\ box\ with\ black\ text\ and\ changes\ transparency\ depending\ if\ the\ mouse\ is\ hovering\ over\ the\ AchievementBack\ class.\r\n\ \r\n\ @author\ Jonathan\r\n\ @version\ January\ 19th\ 2019\r\n
+comment1.params=type
+comment1.target=AchievementTag(int)
+comment1.text=\r\n\ Creates\ a\ new\ AchievementTag\ that\ shows\ the\ description\ of\ the\ Acheivement\r\n\ \r\n\ @param\ type\ \ \ \ \ \ the\ specific\ achievement\ in\ an\ integer\ according\ the\ Acheivement\ List\ array\ in\ the\ world\r\n
+comment2.params=a
+comment2.target=void\ changeTransparency(int)
+comment2.text=\r\n\ changes\ the\ Transparency\ of\ the\ image\ to\ a\ specific\ integer\r\n\ \r\n\ @param\ a\ The\ change\ in\ transparency\r\n
+numComments=3

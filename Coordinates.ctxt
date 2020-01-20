@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Coordinates
+comment0.text=\r\n\ Returns\ coordinates\ to\ be\ used\ by\ the\ enemy's\ pathfinding\ algorithm\r\n\ Coordinates\ that\ are\ returned\ is\ the\ enemy's\ target.\r\n\ \r\n\ @author\ Kevin\ Biro\r\n\ @version\ January\ 16\ 2019\r\n
+comment1.params=x\ y
+comment1.target=Coordinates(int,\ int)
+comment1.text=\r\n\ Saves\ the\ x\ and\ y\ coordinates\ in\ the\ parameters\r\n\ \r\n\ @param\ x\ The\ x\ coordinate\ of\ the\ target\r\n\ @param\ y\ The\ y\ coordinate\ of\ the\ target\r\n
+comment2.params=
+comment2.target=int\ getX()
+comment2.text=\r\n\ Returns\ the\ x\ coordinate\ of\ the\ target\r\n\ \r\n\ @return\ int\ The\ x\ value\ of\ the\ coordinate\r\n
+comment3.params=
+comment3.target=int\ getY()
+comment3.text=\r\n\ Returns\ the\ y\ coordinate\ of\ the\ target\r\n\ \r\n\ @return\ int\ The\ y\ value\ of\ the\ coordinate\r\n
+numComments=4

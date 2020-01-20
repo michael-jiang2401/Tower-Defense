@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Confusion
+comment0.text=\r\n\ Animated\ confusion\ stars\ that\ appear\ over\ towers\ that\ are\ confused\r\n\ \r\n\ @author\ Kevin\ Biro\r\n\ @version\ January\ 16th\ 2019\r\n
+comment1.params=
+comment1.target=Confusion()
+comment1.text=\r\n\ Constructs\ the\ class\ and\ gets\ the\ current\ image\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Confusion\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ animate()
+comment3.text=\r\n\ Animates\ the\ confusion\ for\ 200\ acts\r\n\r\n
+numComments=4

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Death
+comment0.text=\r\n\ This\ is\ an\ animation\ for\ the\ death\ of\ a\ certain\ enemies\r\n\ \r\n\ @author\ Kevin\ B\r\n\ @version\ 1/18/2019\r\n
+comment1.params=electricity\ fire
+comment1.target=Death(boolean,\ boolean)
+comment1.text=\r\n\ creates\ a\ death\ animation\r\n\ \r\n\ @param\ electricity\ Whether\ or\ not\ electricity\ sound\ will\ play\r\n\ @param\ fire\ Whether\ or\ not\ fire\ sound\ will\ play\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Explosion\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ animate()
+comment3.text=\r\n\ plays\ the\ different\ death\ animations\ based\ on\ what\ type\ of\ animation\ should\ be\ played\r\n
+numComments=4

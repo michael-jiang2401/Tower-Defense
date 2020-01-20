@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ConsumableButton
+comment0.text=\r\n\ This\ is\ a\ button\ which\ allows\ users\ to\ select\ and\ use\ consumables\r\n\ \r\n\ @author\ Kevin\ B,\ Michael\r\n\ @version\ 18/01/2019\r\n
+comment1.params=
+comment1.target=void\ addConsumable()
+comment1.text=\r\n\ abstract\ method\ to\ add\ the\ consumable\r\n
+comment2.params=
+comment2.target=void\ click()
+comment2.text=\r\n\ Checks\ the\ user\ click\ on\ the\ button\ and\ adds\ a\ consumable\r\n
+numComments=3
